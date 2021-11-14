@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wish_task</title>
+    <style>
+
+
+        #main{
+            width: 660px;
+            padding: 30px;
+            margin: 250px auto;
+            background-color: white;
+            border-radius: 20px;
+        }
+        body{
+            background-color: cornsilks;
+        }
+        button{
+      border-radius: 25px;
+      background-color: crimson;
+      padding: 10px;
+      margin: 20px;
+      font-size: 20px;
+  }
+      
+  
+  h2{
+      text-align: center;
+      font-size:34px ;
+
+  }
+ 
+
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <h2 value="BINU here" id="get">BINU here</h2>
+        <button onclick="F1()" id="Morning" >Good Morning</button>
+        <button onclick="F2()" id="evening">Good Evening</button>
+        <button  onclick="F3()" id="night">Good night</button>
+    </div>
+    <script>
+        function F1(){
+            var getM=document.getElementById('get');
+            getM.innerText="Good Morning BINU";
+            
+        }
+        function F2(){
+            var getE=document.getElementById('get');
+            getE.innerText="Good Evening BINU";
+        }
+        function F3(){
+            var getN=document.getElementById('get');
+            getN.innerText="Good night BINU";
+        }
+    </script>
+    
+</body>
+</html>
